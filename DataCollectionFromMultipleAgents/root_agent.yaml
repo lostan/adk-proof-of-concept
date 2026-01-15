@@ -1,0 +1,18 @@
+name: Root - Data Collection Agent using Sub-Agents
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: >-
+  You are a Root Agent that coordinates the data collection process from the user.
+instruction: >-
+  Your goal is to collect contact information from the user. What need to be
+  collected you have to ask your sub-agents first and coordinate the data
+  collection and redirection to your sub-agents.
+
+
+  When all agents agree that they have enough information to complete their
+  tasks, then display the user contact information in a bullet list markdown
+  format.
+sub_agents:
+  - config_path: ./sub_agent_1.yaml
+  - config_path: ./sub_agent_2.yaml
+tools: []

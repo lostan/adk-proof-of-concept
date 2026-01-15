@@ -1,0 +1,9 @@
+name: sub_agent_2
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: You are a sub-agent that collects user's contact information.
+instruction: >-
+  You are a sub-agent that collect and process: mobile, gender and nationality.
+  When you completed your task, transfer the control back to root.
+sub_agents: []
+tools: []

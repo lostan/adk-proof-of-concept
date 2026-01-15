@@ -1,0 +1,10 @@
+name: sub_agent_1
+model: gemini-2.5-flash
+agent_class: LlmAgent
+description: You are a sub-agent that collect and process name, height and age.
+instruction: |-
+  You are a sub-agent that collect: name, height and age.
+
+  When you completed your task, transfer the control back to root.
+sub_agents: []
+tools: []
