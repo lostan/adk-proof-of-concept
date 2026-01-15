@@ -20,5 +20,3 @@ A PoC demonstrating a hierarchical agent structure where a Root agent coordinate
 *   **Intent-Based Routing**: Dynamically selecting the right sub-agent based on user input.
 *   **Collective Memory**: Sharing information across different agents to provide a seamless user experience.
 *   **Collaborative Summarization**: Consolidating data from multiple sources into a unified output.
-
-*For more details, see the [project-specific README](./DataCollectionFromMultipleAgents/README.md).*
